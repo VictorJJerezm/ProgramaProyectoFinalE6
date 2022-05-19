@@ -1,3 +1,4 @@
+//Clases llamadas
 #include "menus.h"
 #include "conceptos.h"
 #include "impuestos.h"
@@ -10,6 +11,8 @@
 #include "transferencia.h"
 #include "departamentos.h"
 #include "puestos.h"
+#include "generacionnomina.h"
+//librerias
 #include <iostream>
 #include <fstream>
 #include <iomanip>
@@ -56,6 +59,7 @@ void menus::menuGeneral(){
     Poliza met;
     bitacora bita;
     transferencia tilde;
+    generacionnomina genera;
 
     switch(choice)
     {
@@ -68,7 +72,7 @@ void menus::menuGeneral(){
 		}while(x=='y'||x=='Y');*/
 		break;
 	case 2:
-		//display();
+		genera.menuprincipalgeneracionnomina();
 		break;
 	case 3:
 		gomu.menu();

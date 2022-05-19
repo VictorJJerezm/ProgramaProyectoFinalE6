@@ -753,7 +753,7 @@
 	<conio.h>
 	<iostream>
 
-1652921788 source:c:\users\vjere\proyectos\programaproyectofinale6\prograproyectofinale6\proyecto_nomina1\src\menus.cpp
+1652935261 source:c:\users\vjere\proyectos\programaproyectofinale6\prograproyectofinale6\proyecto_nomina1\src\menus.cpp
 	"menus.h"
 	"conceptos.h"
 	"impuestos.h"
@@ -766,6 +766,7 @@
 	"transferencia.h"
 	"departamentos.h"
 	"puestos.h"
+	"generacionnomina.h"
 	<iostream>
 	<fstream>
 	<iomanip>
@@ -811,4 +812,17 @@
 	<cstdlib>
 	<conio.h>
 	<iomanip>
+
+1652935421 source:c:\users\vjere\proyectos\programaproyectofinale6\prograproyectofinale6\proyecto_nomina1\src\generacionnomina.cpp
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"generacionnomina.h"
+	"menus.h"
+
+1652935261 c:\users\vjere\proyectos\programaproyectofinale6\prograproyectofinale6\proyecto_nomina1\include\generacionnomina.h
+	<iostream>
 
