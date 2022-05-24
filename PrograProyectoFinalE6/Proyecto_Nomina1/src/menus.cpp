@@ -7,7 +7,6 @@
 #include "Banco.h"
 #include "Empresas.h"
 #include "Poliza.h"
-#include "bitacora.h"
 #include "transferencia.h"
 #include "departamentos.h"
 #include "puestos.h"
@@ -45,11 +44,10 @@ void menus::menuGeneral(){
     cout << "\t\t\t  4. Transferencia bancaria"<<endl;
     cout << "\t\t\t  5. Generación de Poliza"<<endl;
     cout << "\t\t\t  6. Impuestos"<<endl;
-    cout << "\t\t\t  7. Bitacora"<<endl;
-    cout << "\t\t\t  8. Salir"<<endl;
+    cout << "\t\t\t  7. Salir"<<endl;
 
     cout << "\t\t\t *********************************************"<<endl;
-    cout << "\t\t\t Opcion a escoger : [1/2/3/4/5/6/7/8]"<<endl;
+    cout << "\t\t\t Opcion a escoger : [1/2/3/4/5/6/7]"<<endl;
     cout << "\t\t\t *********************************************"<<endl;
     cout << "\t\t\t Selecciona tu opcion: ";
     cin>>choice;
@@ -57,7 +55,6 @@ void menus::menuGeneral(){
     conceptos punto;
     informe gomu;
     Poliza met;
-    bitacora bita;
     transferencia tilde;
     generacionnomina genera;
 
@@ -87,9 +84,6 @@ void menus::menuGeneral(){
         punto.menu();
         break;
     case 7:
-        bita.menubitacora();
-        break;
-	case 8:
 	    exit(0);
 		break;
 	default:
@@ -129,7 +123,7 @@ void menus::mantenimientos(){
         Banco mar;
         Empresas av;
         departamentos coma;
-        Puestos pueston;
+        Puestos po;
 
         switch(choice)
         {
@@ -137,7 +131,7 @@ void menus::mantenimientos(){
     	gomu.menu();
 		break;
     case 2:
-		pueston.menuprincipalpuestos();
+		po.menu();
 		break;
 	case 3:
 		coma.menu2();

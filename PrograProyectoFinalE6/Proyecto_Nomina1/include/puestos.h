@@ -6,16 +6,17 @@ using namespace std;
 class Puestos
 {
     public:
-        public:
-        void menuprincipalpuestos();
-		void nuevopuesto();
-		void verpuestos();
         Puestos();
         virtual ~Puestos();
+        void menu();
+        void insertar();
+        void desplegar();
+        void buscar();
+        void modificar();
+        void borrar();
 
     protected:
         private:
-            string nombrepuesto, area, segmento, salario, vacantes;
 };
 
 #endif
